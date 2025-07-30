@@ -1,0 +1,23 @@
+Watching for file changes with StatReloader
+C:\Users\Amit Karmakar\Desktop\GenAI\chat_summarizer\chat_summarizer\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /api/summarize/
+"GET /api/summarize/ HTTP/1.1" 405 5576
+"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+"GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+Incoming request: {'chat': [{'role': 'user', 'message': 'Why was I charged twice this month?'}, {'role': 'bot', 'message': 'Let me review your billing. Could you share the last four digits of your card?'}, {'role': 'user', 'message': '1234'}, {'role': 'bot', 'message': 'I see a duplicate charge; a refund has been initiated.'}]}
+Outgoing response: {'summary': 'A user questioned being double-charged for the same amount in their account, and after sharing the last four digits of their payment card number, they were informed that a refund had been initiated.'}
+"POST /api/summarize/ HTTP/1.1" 200 5723
+Incoming request: {'chat': [{'role': 'user', 'message': 'I forgot my password.'}, {'role': 'bot', 'message': 'No problem. I can send a reset link to your email. Is that okay?'}, {'role': 'user', 'message': 'Yes please.'}, {'role': 'bot', 'message': "I've sent the password reset link to your registered email."}]}
+Outgoing response: {'summary': 'The user requested help with resetting their password, and the bot successfully sent a password reset link to their registered email address.'}
+"POST /api/summarize/ HTTP/1.1" 200 5666
